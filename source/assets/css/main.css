@@ -629,7 +629,7 @@ input, textarea {
   border-radius: 6px; }
 
 .btn:hover {
-  background: #48BEC4;
+  background: #007E84;
   color: white; }
 
 .btn:focus {
@@ -638,7 +638,8 @@ input, textarea {
 
 .btn.disabled {
   background: #eeeeee;
-  color: white; }
+  color: white;
+  border-color: #eeeeee;}
 
 .btn-alt {
   display: inline-block;
@@ -653,7 +654,7 @@ input, textarea {
   border-radius: 6px; }
 
 .btn-alt:hover {
-  background: #AAAAAA;
+  background: #222222;
   color: white; }
 
 .btn-alt:focus {
@@ -662,7 +663,8 @@ input, textarea {
 
 .btn-alt.disabled {
   background: #eeeeee;
-  color: white; }
+  color: white;
+  border-color: #eeeeee;}
 
 .btn-small {
   padding: 0.5em; }
@@ -699,10 +701,10 @@ input, textarea {
     padding: .4em 1em;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: #AAAAAA;
-    border: solid 1px #666666;
+    background-color: #D3FFFD;
+    border: solid 1px #007E84;
     border-bottom: none;
-    color: #666666;
+    color: #007E84;
 }
 
 .tab:hover { 
@@ -710,13 +712,37 @@ input, textarea {
 }
 
 .tab--active, .tab:focus, .tab:active  {
-    background-color: #48BEC4;
+    background-color: #007E84;
     border-color: #007E84;
-    color: #00444A;
+    color: #ffffff;
 }
 
 .tab--active:hover {
-    color: #00444A;
+    color: #007E84;
+}
+.tab-alt {
+    display: inline-block;
+    padding: .4em 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #eeeeee;
+    border: solid 1px #666666;
+    border-bottom: none;
+    color: #666666;
+}
+
+.tab-alt:hover { 
+    color: #222222;
+}
+
+.tab-alt--active, .tab-alt:focus, .tab-alt:active  {
+    background-color: #222222;
+    border-color: #222222;
+    color: #ffffff;
+}
+
+.tab-alt--active:hover {
+    color: #007E84;
 }
 
 /*------------------------------------*\
@@ -735,7 +761,7 @@ input, textarea {
     display: inline-block;
     padding: .25em 1em;
     font-size: 12px;
-    background-color: #AAAAAA;
+    background-color: #eeeeee;
     border-radius: 5px;
     color: #666666; 
 }
@@ -745,23 +771,22 @@ input, textarea {
 }
 
 .tag--negative {
-    background-color: #FF61E5;
-    color: #9E0084;
+    background-color: #FFEAFC;
+    color: #9E2E8D;
 }
 
 .tag--negative:hover {
-    color: #9E0084;
+    color: #9E2E8D;
 }
 
 .tag--positive {
-    background-color: #48BEC4;
-    color: #00444A;
+    background-color: #D3FFFD;
+    color: #007E84;
 }
 
 .tag--positive:hover {
-    color: #00444A;
+    color: #007E84;
 }
-
 
 
 /*------------------------------------*\
