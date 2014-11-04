@@ -1,3 +1,53 @@
+/**
+ * CONTENTS
+ *
+ * HELPERS
+ * Global.................Globally-available helper classes.
+ *
+ *
+ * ROOT
+ * Normalize.css..........A level playing field.
+ * Box-sizing.............Better default `box-sizing`.
+ * HTML and Body..........Basic styles for html and body
+ *
+ * BASE
+ * Typography.............H1–H6, ul, p and other typo styles.
+ * Links..................Basic link styles.
+ * Images.................Image and figure styles.
+ * Tables.................H1–H6 styles.
+ * Forms..................Form styles.
+ * Buttons................Button styles.
+ * Tabs...................Tab styles.
+ * Tags...................Tag styles.
+ *
+ * OBJECTS
+ * Color..................Color classes
+ * Media..................Media class (image on the left/right of the content)
+ * Nav....................Nav classes
+ *
+ * MODULES
+ * Header.................The main page header.
+ * Login..................Login module.
+ * Messaging..............Messaging styles.
+ * Helper text............Helper text.
+ * Fader text.............Fader text.
+ * Comments...............Comments module.
+ * Discussion.............Discussion organism.
+ * Profile................Profile section.
+
+
+ *
+ *
+ */
+
+
+
+
+
+
+
+
+
 /*------------------------------------*\
 	$HELPER
 \*------------------------------------*/
@@ -82,9 +132,8 @@
 	width:1px!important
 }
 
-/*------------------------------------*\
-		$BASE
-\*------------------------------------*/
+
+
 /*------------------------------------*\
 		$ROOT
 \*------------------------------------*/
@@ -145,6 +194,12 @@ body {
 .page--with-sticky {
 	padding:3em 0 0
 }
+
+
+/*------------------------------------*\
+		$BASE
+\*------------------------------------*/
+
 
 /*------------------------------------*\
 		$TYPOGRAPHY
@@ -292,7 +347,7 @@ sup {
 }
 
 /*------------------------------------*\
-		Links
+		$LINKS
 \*------------------------------------*/
 a {
 	color:#007e84;
@@ -586,22 +641,6 @@ input,textarea {
 	margin-bottom:1em
 }
 
-/*------------------------------------*\
-		$ALERTS
-\*------------------------------------*/
-.alert {
-	text-align:center;
-	padding:1em;
-	margin-bottom:.5em;
-	border:1px solid gray;
-	background:#f9f9f9
-}
-
-.alert-error {
-	color:red;
-	border-color:red;
-	background:#ffbebe
-}
 
 /*------------------------------------*\
 		$BUTTONS
@@ -787,6 +826,16 @@ input,textarea {
 	color:#007E84
 }
 
+
+
+
+
+/*------------------------------------*\
+	$OBJECTS
+\*------------------------------------*/
+
+
+
 /*------------------------------------*\
 	$COLOR
 \*------------------------------------*/
@@ -895,9 +944,6 @@ input,textarea {
 	background-color:#FFF
 }
 
-/*------------------------------------*\
-		$OBJECTS
-\*------------------------------------*/
 /*------------------------------------*\
 		$MEDIA
 \*------------------------------------*/
