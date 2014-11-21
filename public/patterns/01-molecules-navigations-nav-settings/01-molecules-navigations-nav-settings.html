@@ -68,39 +68,11 @@
 
 	</head>
 	<body class="body">
-<div class="comment">
+<ul class="bare-list nav nav-settings">
+    <li class="nav__item"><a href="#"><i class="icon icon-avatar"></i><span>Firstname Lastname</span></a></li>
+    <li class="nav__item"><a href="#"><i class="icon icon-word"></i></a></li>
+</ul>
 
-	<figure class="comment__img">
-		<!--img class="img--round" src="http://placeimg.com/40/40/tech" alt="Person Name" /-->
-		<i class="icon-avatar_circle"></i>
-	</figure><!-- end comment pic -->
-
-	<div class="comment__meta">
-
-		<a href="#">Firstname Lastname</a>
-
-		<time>About an hour ago</time>
-		
-	</div><!-- end comment meta -->
-
-	<div class="comment__body">
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-	</div><!-- end comment body -->
-
-	<div class="comment__actions">
-
-		<span class="comment-toggle js-comment-toggle">Comment</span>
-
-	</div><!-- end comment actions -->
-
-	<div class="comment__field">
-
-
-	</div><!-- end comment field -->
-
-</div><!-- end single comment -->
 	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 
 	<script src='../../assets/js/main.js'></script>
@@ -109,9 +81,9 @@
 		
 	<script>
 		// handle injection of items from PHP
-		var patternPartial = "molecules-comment";
+		var patternPartial = "molecules-nav-settings";
 		var lineage        = [];
-		var lineageR       = [];
+		var lineageR       = [{"lineagePattern":"organisms-navigation","lineagePath":"..\/..\/patterns\/02-organisms-navigation-navigation\/02-organisms-navigation-navigation.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
